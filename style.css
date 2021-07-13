@@ -16,6 +16,7 @@ body {
 #navbar {
   border-bottom: 1px solid seashell;
   height: 69px;
+  width: 100%;
   display: flex;
 }
 
