@@ -3,4 +3,23 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
 /* Specific style */
+
+#navbar {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+}
+
+#underline {
+  display:inline-flex;
+  justify-content: right;
+}
