@@ -77,4 +77,25 @@ body {
   text-align: center;
   width: 100%;
   margin: auto;
+  display: block;
+}
+
+#img-berryblitz {
+  /* display: flex; */
+}
+
+#tea-section {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex
+}
+
+.main-iamage {
+  width: 300px;
+  display:inline-flex;
+  height: 200px;
+}
+
+figcaption {
+  text-align: center;
 }
