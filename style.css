@@ -19,7 +19,6 @@ body {
   height: 69px;
   width: 100%;
   display: inline-block;
-  position: fixed;
 }
 
 #underline {
@@ -40,4 +39,12 @@ body {
 
 #tea {
   font-style: cursive;
+}
+
+#mission-pic {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: top;
 }
