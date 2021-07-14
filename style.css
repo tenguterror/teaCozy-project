@@ -99,13 +99,15 @@ figcaption {
 }
 
 /* Locations styleing */
+#loctions-section {
+  width: 100%;
+}
 
 #locations-container {
   height: 500px;
-  width: 1200px;
+  width: 100%;
   background-image: url(Resources/images/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  margin: 40px auto;
 }
