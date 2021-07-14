@@ -80,8 +80,6 @@ body {
   display: block;
 }
 
-#img-berryblitz {
-  /* display: flex; */
 }
 
 #tea-section {
@@ -90,7 +88,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
 }
 
 .main-image {
