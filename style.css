@@ -1,6 +1,7 @@
 /* Universal Style */
 * {
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -18,9 +19,19 @@ body {
   height: 69px;
   width: 100%;
   display: flex;
+  /* justify-content: space-around */
 }
 
 #underline {
-  display:inline-flex;
-  justify-content: right;
+  display: inline-flex;
+  flex: grow;
+  text-decoration: underline;
+}
+
+.navbar {
+  margin: 10px
+}
+
+#logo {
+  margin-right: 10px;
 }
