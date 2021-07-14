@@ -14,6 +14,7 @@ body {
 
 /* Specific style */
 
+/* Navbar Section*/
 #navbar {
   border-bottom: 1px solid seashell;
   height: 69px;
@@ -41,6 +42,8 @@ body {
   font-style: cursive;
 }
 
+/* Pic Banner Section */
+
 #mission-section {
   display: flex;
   width: 100%;
@@ -60,6 +63,18 @@ body {
 #mission-text {
   text-align: center;
   background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Tea of the month section */
+#month-section {
+  display: flex;
+  margin-top: 60px;
+}
+
+#tea-text {
+  text-align: center;
   width: 100%;
   margin: auto;
 }
