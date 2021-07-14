@@ -41,10 +41,10 @@ body {
   font-style: cursive;
 }
 
-#mission-pic {
-  display: flex;
-  width: 1200px;
-  align-items: center;
+#mission-container{
+  background-image: url(Resources/images/img-mission-background.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
+  width: 1200px;
+  height: 700px;
 }
