@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -18,14 +18,14 @@ body {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
-  display: flex;
-  /* justify-content: space-around */
+  display: inline-block;
+  position: fixed;
 }
 
 #underline {
   display: inline-flex;
-  flex: grow;
   text-decoration: underline;
+  float: right;
 }
 
 .navbar {
@@ -34,4 +34,10 @@ body {
 
 #logo {
   margin-right: 10px;
+  float: left;
+  height: 50px;
+}
+
+#tea {
+  font-style: cursive;
 }
