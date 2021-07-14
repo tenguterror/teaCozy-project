@@ -41,10 +41,25 @@ body {
   font-style: cursive;
 }
 
-#mission-container{
+#mission-section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#mission-container {
   background-image: url(Resources/images/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   width: 1200px;
   height: 700px;
+  display: inline-flex;
+  flex-grow: 1;
+}
+
+#mission-text {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
 }
