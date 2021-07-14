@@ -100,7 +100,7 @@ figcaption {
 
 /* Locations styleing */
 #loctions-section {
-  width: 100%;
+  display: flex;
 }
 
 #locations-container {
@@ -109,5 +109,6 @@ figcaption {
   background-image: url(Resources/images/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  display: flex;
+  background-size: 90%;
+  display: inline-flex;
 }
