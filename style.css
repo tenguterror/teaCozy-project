@@ -149,3 +149,10 @@ figcaption {
 h5 {
   margin-top: 45px;
 }
+
+/* Footer sytles */
+#foot-container {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
