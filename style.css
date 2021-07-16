@@ -135,3 +135,17 @@ figcaption {
   width: 300px;
   opacity: 1;
 }
+
+/* Bottom-banner Styling */
+
+#bottom-container {
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+h5 {
+  margin-top: 45px;
+}
