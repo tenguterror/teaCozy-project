@@ -113,6 +113,11 @@ figcaption {
   flex-wrap: nowrap;
 }
 
+#container1 {
+  height: 100%;
+  align-items: center;
+}
+
 #locations-header {
   text-align: center;
 }
