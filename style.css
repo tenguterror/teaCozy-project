@@ -106,7 +106,7 @@ figcaption {
   background-size: cover;
   background-position: center;
   width: 90%;
-  height: 700px;
+  height: 500px;
   margin: 0 auto;
   display: block;
   flex-direction: row;
@@ -116,12 +116,17 @@ figcaption {
 #locations-header {
   text-align: center;
 }
+
 #locations-container {
   display: flex;
   width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .locations {
   background-color: black;
   width: 300px;
+  opacity: 1;
 }
