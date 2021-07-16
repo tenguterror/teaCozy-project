@@ -103,9 +103,10 @@ figcaption {
 #locations-section {
   background-image: url(Resources/images/img-locations-background.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   width: 90%;
+  height: 700px;
   margin: 0 auto;
   display: block;
   flex-direction: row;
@@ -115,9 +116,12 @@ figcaption {
 #locations-header {
   text-align: center;
 }
+#locations-container {
+  display: flex;
+  width: 100%;
+}
 
 .locations {
   background-color: black;
   width: 300px;
-  
 }
